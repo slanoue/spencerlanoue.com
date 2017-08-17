@@ -40,6 +40,10 @@ router.get('/guest', function(req, res, next) {
   res.render('guest', { title: 'Guest posts', description: 'Articles I\'ve written wrote for Fast Company, Entrepreneur, and more'});
 });
 
+router.get('/stanford', function(req, res, next) {
+  res.render('stanford', { title: 'Stanford desk graffiti: anonymous notes that reveal the inner thoughts of students at a top-tier university', description: 'Anonymous Notes from Stanford Students'});
+});
+
 /* EXPORT this file as a module that can be used in other files */
 
 module.exports = router;

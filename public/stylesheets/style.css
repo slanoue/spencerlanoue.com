@@ -25,7 +25,7 @@ h3 {
   color: #000;
 }
 
-p, li, dl, dt, dd {
+p, li, dl, dt, dd, quote {
   font-size: 20px;
   line-height: 34px;
   color: #333;
@@ -46,6 +46,12 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+quote {
+  display: block;
+  font-style: italic;
+  margin-left: 40px;
 }
 
 hr {
