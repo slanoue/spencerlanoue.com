@@ -8,6 +8,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Spencer Lanoue', description: 'My personal site where I track what I\'m reading and learning'});
 });
 
+router.get('/articles', function(req, res, next) {
+  res.render('articles', { title: 'Articles', description: ''});
+});
+
 router.get('/now', function(req, res, next) {
   res.render('now', { title: 'What I\'m doing now', description: 'Here\'s what I\'m currently working on now'});
 });
