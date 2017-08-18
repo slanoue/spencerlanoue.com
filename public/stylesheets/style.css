@@ -58,6 +58,10 @@ hr {
   margin: 40px auto;
 }
 
+date {
+  color: #808080;
+}
+
 footer p {
   text-align: center;
   font-size: 14px;
@@ -95,75 +99,3 @@ footer p {
   font-size: 20px;
   font-weight: lighter;
 }
-
-
-
-/*
-body {
-  max-width: 640px;
-  margin: auto;
-  padding: 20px;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: Georgia, serif;
-}
-
-h1 {
-  font-size: 34px;
-}
-
-h2 {
-  font-size: 26px;
-}
-
-h3 {
-  font-size: 22px;
-}
-
-h4 {
-  font-size: 19px;
-}
-
-h5 {
-  font-size: 16px;
-}
-
-p, li {
-  font-family: Georgia, serif;
-  font-size: 19px;
-  line-height: 30px;
-  color: #000;
-}
-
-li {
-  padding: 10px 0;
-}
-
-a {
-  color: #2200BB;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #551A8B;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-hr {
-  margin: 40px auto;
-}
-
-.header {
-  padding: 10px 0px;
-}
-
-.header li {
-  display: inline-block;
-  padding: 0 2px;
-}
-
-*/
