@@ -19,7 +19,7 @@ router.get('/projects', function(req, res, next) {
 /* Project Pages */
 
 router.get('/reading', function(req, res, next) {
-  res.render('reading', { title: 'Books I\'ve Read', description: 'A list of all the books I\'ve read'});
+  res.render('reading', { title: 'What I\'m Reading', description: 'A list of all the books I\'ve read'});
 });
 
 router.get('/recommended', function(req, res, next) {
@@ -41,7 +41,7 @@ router.get('/guest', function(req, res, next) {
 /* Articles */
 
 router.get('/next', function(req, res, next) {
-  res.render('next', { title: 'What should I read next? The resources I use to find great books', description: 'These resources that have helped me find almost every book that\’s had a meaningful impact on my thinking in business and life.', date: '2017-04-12'});
+  res.render('next', { title: 'What should I read next? The resources I use to find great books', description: 'These resources that have helped me find almost every book that\’s had a meaningful impact on my thinking in business and life.'});
 });
 
 
