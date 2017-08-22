@@ -106,7 +106,7 @@ footer p {
   background-color: transparent;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .header {
     flex-direction: column;
     align-items: baseline;

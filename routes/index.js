@@ -41,7 +41,7 @@ router.get('/guest', function(req, res, next) {
 /* Articles */
 
 router.get('/next', function(req, res, next) {
-  res.render('next', { title: 'What should I read next? The resources I use to find great books', description: 'These resources that have helped me find almost every book that\’s had a meaningful impact on my thinking in business and life.'});
+  res.render('next', { title: 'What should I read next? Here are the resources I use to find great books', description: 'These resources that have helped me find almost every book that\’s had a meaningful impact on my thinking in business and life.'});
 });
 
 
