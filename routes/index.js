@@ -8,10 +8,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Spencer Lanoue', description: 'My personal site where I track what I\'m reading and learning'});
 });
 
-router.get('/articles', function(req, res, next) {
-  res.render('articles', { title: 'Articles', description: ''});
-});
-
 router.get('/now', function(req, res, next) {
   res.render('now', { title: 'What I\'m doing now', description: 'Here\'s what I\'m currently working on now'});
 });
@@ -46,10 +42,6 @@ router.get('/guest', function(req, res, next) {
 
 router.get('/next', function(req, res, next) {
   res.render('next', { title: 'What should I read next? The resources I use to find great books', description: 'These resources that have helped me find almost every book that\’s had a meaningful impact on my thinking in business and life.', date: '2017-04-12'});
-});
-
-router.get('/stanford', function(req, res, next) {
-  res.render('stanford', { title: 'Stanford desk graffiti: Anonymous notes from young, ambitious college students', description: 'Anonymous notes written by Stanford students on a library desk', date: '2017-08-17'});
 });
 
 
